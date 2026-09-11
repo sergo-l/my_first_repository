@@ -24,6 +24,7 @@ ____
 | Инструмент / Технология | Уровень владения | Практика / Опыт |
 | :---  |  :---:   |   ---: |
 | Git & Git Bash  |   Базовый CLI   |   20+ часов практики |
+| HTML5 & CSS3 | В процессе обучения | 1 учебный проект |
 
 ___
 
@@ -42,16 +43,18 @@ ___
 ___
 ## Мой рабочий инструментарий
 Для быстрой работы в редакторе VS Code я ежедневно использую сочетания клавиш:
-- Быстрое открытие файлов: `Ctrl` + `P`
-- Множественный курсор: `Alt` + клик мыши
-- Встроенный терминал: `Ctrl` + ```
+- Быстрое открытие файлов: <kbd>Ctrl</kbd> + <kbd>P</kbd>
+- Множественный курсор: <kbd>Alt</kbd> + клик мыши
+- Встроенный терминал: <kbd>Ctrl</kbd> + <kbd>`</kbd>
 
 Мой любимый стартовый bash-скрипт для быстрого развертывания проекта: <br>
-<div><kbd>#!/usr/bin/env bash<br>
-# Быстрое создание структуры учебного проекта<br>
-mkdir -p src/{styles,scripts,assets} docs<br>
-touch src/index.html src/styles/main.css src/scripts/app.js docs/README.md<br>
-echo "Каркас проекта успешно развернут!"</kbd></div>
+```
+#!/usr/bin/env bash
+# Быстрое создание структуры учебного проекта
+mkdir -p src/{styles,scripts,assets} docs
+touch src/index.html src/styles/main.css src/scripts/app.js docs/README.md
+echo "Каркас проекта успешно развернут!"
+```
 <br>
 
 >[!warning]
@@ -60,13 +63,16 @@ ___
 ## Системная конфигурация
 <details>
   <summary>Нажмите, чтобы посмотреть параметры рабочей станции разработчика</summary>
-  Окружение:<br>
-  ОС: Windows 11 Pro (x64)<br>
-  Эмулятор: Git Bash 2.45 (MinGW64)<br>
-  Шрифт редактора: JetBrains Mono<br>
-  Тема VS Code: GitHub Dark Default<br>
+  <pre>
+  Окружение:
+  ОС: Windows 11 Pro (x64)
+  Эмулятор: Git Bash 2.45 (MinGW64)
+  Шрифт редактора: JetBrains Mono
+  Тема VS Code: GitHub Dark Default
 </details>
-
+    
+  </pre>
+  
 ___
 
 ## Контакты для связи
